@@ -1,8 +1,10 @@
 {
     "files.autoSave": "onFocusChange",
-    "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 22,
+    "editor.fontFamily": "Source Code Pro Light",
     "editor.wordWrap": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
     "code-runner.executorMap": {
         "javascript": "node",
         "php": "C:\\php\\php.exe",
@@ -15,22 +17,87 @@
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
     "code-runner.clearPreviousOutput": true,
-    "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
-    "editor.fontFamily": "Monaco",
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "editor.fontSize": 20,
-    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.terminalRoot": "gnome-terminal",
+    "workbench.colorCustomizations": {
+        "editorBracketMatch.background": "#095ead",
+        "editorBracketMatch.border": "#095ead",
+        "editorSuggestWidget.background": "#2a2a2a",
+        "editorSuggestWidget.border": "#2a2a2a",
+    },
+    "editor.tokenColorCustomizations": {
+       "[Monokai]": {
+               "comments":{
+                   "fontStyle": "italic"
+               },
+               "keywords":{
+                "fontStyle": "italic",
+                // "foreground": "#4ed4dd"
+               },
+               "functions": {
+                "fontStyle": "italic",
+                // "foreground": "#4ed4dd"
+               },
+               "types":{
+                "fontStyle": "italic",
+                // "foreground": "#4ed4dd" // #4ed4dd
+               },
+               "strings":{
+                   "fontStyle": "italic",
+                   "foreground": "#c3f709cc"
+               },
+            //    "variables": {
+            //         "fontStyle": "bold"   
+            //    }
+               
+       } 
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0,
+    "python.autoComplete.addBrackets": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "workbench.statusBar.visible": true,
+    "C_Cpp.dimInactiveRegions": false,
+    "C_Cpp.enhancedColorization": "Disabled",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
     "editor.cursorStyle": "line-thin",
-    "editor.smoothScrolling": true,
-    
-    "terminal.integrated.fontFamily": "Hack",
+    "code-runner.runInTerminal": true,
+    "python.languageServer": "Microsoft",
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "gnome-terminal",
+    "git.autofetch": true,
+    "[cpp]": {
+
+        "editor.suggest.showInterfaces": false,
+        "editor.suggest.showIssues": false,
+        "editor.suggest.filterGraceful": false,
+        // "editor.suggest.showVariables": false
+        // "editor.suggest.showStructs": false
+        // "editor.suggest.showReferences": false
+        // "editor.suggest.showTypeParameters": false,
+        // "editor.suggest.showEnums": false,
+        // "editor.suggest.showEnumMembers": false,
+        // "editor.suggest.showKeywords": false,
+    },
+    "git.enableSmartCommit": true,
+    "[dockerfile]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "workbench.colorTheme": "Monokai",
     "terminal.integrated.rendererType": "dom",
-    // "workbench.colorCustomizations": {
-    //       "activityBar.background": "#1b1b1b",
-    //       "sideBar.background": "#1b1b1b",
-    //       "editor.background": "#111111",
-          
-    // }
+    // "terminal.integrated.rendererType": "experimentalWebgl"
+    // "C_Cpp.autocomplete": "Disabled",
+    
 }
