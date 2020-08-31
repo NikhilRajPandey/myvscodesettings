@@ -13,8 +13,8 @@
         "go": "go run",
         "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && cd temp && gcc ../$fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "cpp": "cd $dir && cd temp && g++ ../$fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+        "c": "cd $dir && cd temp && gcc ../$fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+        "cpp": "cd $dir && cd temp && g++ ../$fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
