@@ -13,8 +13,8 @@
         "go": "go run",
         "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && cd temp && gcc ../$fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
-        "cpp": "cd $dir && cd temp && g++ ../$fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+        "c": "cd $dir && gcc $fileName -o temp/$fileNameWithoutExt && ./temp/$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o temp/$fileNameWithoutExt && ./temp/$fileNameWithoutExt"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
@@ -77,9 +77,9 @@
     "git.autofetch": true,
     "[cpp]": {
 
-        "editor.suggest.showInterfaces": false,
-        "editor.suggest.showIssues": false,
-        "editor.suggest.filterGraceful": false,
+        // "editor.suggest.showInterfaces": false,
+        // "editor.suggest.showIssues": false,
+        // "editor.suggest.filterGraceful": false,
         "editor.defaultFormatter": "ms-vscode.cpptools",
         // "editor.suggest.showVariables": false
         // "editor.suggest.showStructs": false
@@ -99,7 +99,6 @@
     "terminal.integrated.rendererType": "dom",
     "editor.fontFamily": "Source Code Pro Light",
     "terminal.integrated.fontFamily": "Source Code Pro Light",
-    "python.defaultInterpreterPath": "/usr/bin/python3",
     "editor.columnSelection": false,
     "workbench.colorTheme": "Monokai",
     "editor.suggestSelection": "first",
