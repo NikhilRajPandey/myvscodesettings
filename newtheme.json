@@ -1,0 +1,115 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "C:\\php\\php.exe",
+        "python": "python3",
+        "perl": "perl",
+        "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+        "go": "go run",
+        "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o temp/$fileNameWithoutExt && ./temp/$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o temp/$fileNameWithoutExt && ./temp/$fileNameWithoutExt"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.terminalRoot": "gnome-terminal",
+    
+    "workbench.colorCustomizations": {
+        "editorBracketMatch.background": "#095ead",
+        "editorBracketMatch.border": "#095ead",
+        // "editorSuggestWidget.background": "#2a2a2a",
+        // "editorSuggestWidget.border": "#2a2a2a"
+        "editorSuggestWidget.background": "#001627",
+        "editorSuggestWidget.border": "#001627",
+        "statusBar.background": "#064375"
+
+    },
+    "editor.tokenColorCustomizations": {
+       "[Monokai]": {
+               "comments":{
+                   "fontStyle": "italic"
+               },
+               "keywords":{
+                "fontStyle": "italic",
+                // "foreground": "#4ed4dd"
+               },
+               "functions": {
+                "fontStyle": "italic",
+                // "foreground": "#4ed4dd"
+               },
+               "types":{
+                "fontStyle": "italic",
+                // "foreground": "#4ed4dd" // #4ed4dd
+               },
+               "strings":{
+                   "fontStyle": "italic",
+                   "foreground": "#c3f709cc"
+               },
+            //    "variables": {
+            //         "fontStyle": "bold"   
+            //    }
+            //    
+       } 
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0,
+    "python.autoComplete.addBrackets": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "workbench.statusBar.visible": true,
+    "C_Cpp.dimInactiveRegions": false,
+    "C_Cpp.enhancedColorization": "Disabled",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.cursorStyle": "line-thin",
+    "code-runner.runInTerminal": true,
+    "python.languageServer": "Jedi",
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "gnome-terminal",
+    "git.autofetch": true,
+    "[cpp]": {
+// 
+        // "editor.suggest.showInterfaces": false,
+        // "editor.suggest.showIssues": false,
+        // "editor.suggest.filterGraceful": false,
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        // "editor.suggest.showVariables": false
+        // "editor.suggest.showStructs": false
+        // "editor.suggest.showReferences": false
+        // "editor.suggest.showTypeParameters": false,
+        // "editor.suggest.showEnums": false,
+        // "editor.suggest.showEnumMembers": false,
+        // "editor.suggest.showKeywords": false,
+    },
+    "git.enableSmartCommit": true,
+    "[dockerfile]": {
+// 
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "Source Code Pro Light",
+    "terminal.integrated.fontFamily": "Source Code Pro Light",
+    "editor.columnSelection": false,
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    // "terminal.integrated.rendererType": "experimentalWebgl"
+    // "C_Cpp.autocomplete": "Disabled",
+    // 
+}
